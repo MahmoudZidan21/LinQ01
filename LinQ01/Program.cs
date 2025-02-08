@@ -112,6 +112,52 @@
             #endregion
 
 
+            #region Linq Syntax
+            // Linq Syntax 
+
+            // 1. Method Syntax
+            // 1.1  Linq Operators  As => class member method Throw Class "Enumerable"
+
+            //List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //var result = Enumerable.Where(n => n % 2 == 0);
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+
+            // 1.1  Linq Operators  As => Extention  method THrow Seqeuence 
+
+            //List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //var result = numbers.Where(n => n % 2 == 0);
+
+
+
+
+            // 2. Query Syntax Like SQL Style
+            // 2.1  From
+            // 2.2  Where
+            // 2.3  Select
+
+
+
+
+            //List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //var result = from n in numbers
+            //             where n % 2 == 0
+            //             select n;
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+
+            #endregion
         }
     }
 }
