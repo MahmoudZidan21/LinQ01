@@ -40,7 +40,6 @@
             //Data02 = true;
             //Console.WriteLine(Data02.GetType().Name); 
             #endregion
-
             #region Anonymous Types
             // Anonymous Types
 
@@ -79,8 +78,6 @@
             //   Console.WriteLine(result);
 
             #endregion
-
-
             #region LINQ : Language Integrated Query
             // LINQ : Language Integrated Query
             //      : 40+ Extention  MEthod (Linq OPerators) With Any data (Data In Sequence)
@@ -110,8 +107,6 @@
             //}
 
             #endregion
-
-
             #region Linq Syntax
             // Linq Syntax 
 
@@ -158,8 +153,6 @@
             //}
 
             #endregion
-
-
             #region  Linq  Exucution Ways
             // Linq  Exucution Ways
             // 1. Deferred  -- 10 Category
@@ -194,8 +187,23 @@
 
             #endregion
 
+            #region Setup Data
+            // Setup Data
 
 
+            //Console.WriteLine(ListGenerator.ProductList[0]);
+            //  Console.WriteLine(ListGenerator.CustomerList[0]);
+
+            //      var result = ListGenerator.ProductList.Where(P => P.UnitsInStock == 0);
+            //  var result = ListGenerator.CustomerList.Where(C => C.City == "Berlin");
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            #endregion
 
         }
     }
