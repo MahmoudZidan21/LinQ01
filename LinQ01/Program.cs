@@ -68,7 +68,17 @@
             //    Console.WriteLine(" Emp != Ep1");
 
             #endregion
+            #region Extention Methods
 
+            // Extention Methods
+
+            //   int num = 12345;
+
+            //   num.Reverse();
+            //var result=  IntExtention.Reverse(num);
+            //   Console.WriteLine(result);
+
+            #endregion
 
         }
     }
