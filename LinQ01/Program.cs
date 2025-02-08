@@ -41,6 +41,33 @@
             //Console.WriteLine(Data02.GetType().Name); 
             #endregion
 
+            #region Anonymous Types
+            // Anonymous Types
+
+            // Employee emp = new Employee { id = 1, Name = "Ahmed", Salary = 1000 };
+            //var emp = new  { id = 1, Name = "Ahmed", Salary = 1000 };
+            //var emp1 = new  { id = 1, Name = "Ahmed", Salary = 1000 };
+
+
+            //Console.WriteLine(emp.id);
+            //Console.WriteLine(emp.Salary);
+            //Console.WriteLine(emp.Name);
+
+            //emp.id = 2; // Error
+
+            //Console.WriteLine(emp.GetType().Name);
+            //  Console.WriteLine(emp.GetType().Name);
+            //// The Same Anonymous Type Will Have The Same Name
+            //// 1. The Same Property Name (Case Sensitive)
+            ////2. The Same Property order
+
+
+            //if (emp.Equals(emp1))
+            //    Console.WriteLine(" Emp == Ep1");
+            //else
+            //    Console.WriteLine(" Emp != Ep1");
+
+            #endregion
 
 
         }
