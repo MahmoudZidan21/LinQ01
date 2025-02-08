@@ -158,6 +158,45 @@
             //}
 
             #endregion
+
+
+            #region  Linq  Exucution Ways
+            // Linq  Exucution Ways
+            // 1. Deferred  -- 10 Category
+            // 2. Immediate -- 3 Category ( Element Operators , Cast , Aggregate )
+
+            //List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //var Result = numbers.Where(n => n % 2 == 0); // Deferred Execution
+
+            //numbers.AddRange (new List<int> { 10, 11, 12, 13, 14, 15 });
+
+            //foreach (var item in Result) //Here
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+
+
+            //List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //var Result = numbers.Where(n => n % 2 == 0).ToList(); // Immediate Execution
+
+            //numbers.AddRange(new List<int> { 10, 11, 12, 13, 14, 15 });
+
+            //foreach (var item in Result) //Here
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            #endregion
+
+
+
+
         }
     }
 }
