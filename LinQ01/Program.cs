@@ -80,6 +80,38 @@
 
             #endregion
 
+
+            #region LINQ : Language Integrated Query
+            // LINQ : Language Integrated Query
+            //      : 40+ Extention  MEthod (Linq OPerators) With Any data (Data In Sequence)
+            //      : 13 Category 
+            //      : LINQ Operators Exists in Built In Class "IEnumerable"
+
+
+            // Sequence  : OPJECT from Class Implement InterFace "IEnumerable"
+            // Local Sequence  : L20  , L2XMl
+            // Remote Sequence : L2EF
+
+            // input Sequence-> LINQ Operator -> Output Sequence
+            // input Sequence-> LINQ Operator -> One Value
+            //               -> LINQ Operator -> Output Sequence
+
+
+            //   List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            ////  var result =  Enumerable.Where(numbers, n => n % 2 == 0);
+            //     var result =  Enumerable.Any(numbers, n => n % 2 == 0);
+            //   Console.WriteLine(result);
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+
+            #endregion
+
+
         }
     }
 }
